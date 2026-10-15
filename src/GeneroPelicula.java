@@ -1,4 +1,8 @@
-package PACKAGE_NAME;
-
 public enum GeneroPelicula {
+    ACCION,
+    COMEDIA,
+    DRAMA,
+    TERROR,
+    ANIMACION
 }
+
