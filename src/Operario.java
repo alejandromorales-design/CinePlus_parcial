@@ -10,6 +10,16 @@ public class Operario extends Persona {
     private LocalDate fechaContratacion;
     private double salarioBasico;
 
+    /**
+     *
+     * @param documentoIdentidad
+     * @param nombreCompleto
+     * @param correoElectronico
+     * @param telefono
+     * @param codigoEmpleado
+     * @param fechaContratacion
+     * @param salarioBasico
+     */
     public Operario(String documentoIdentidad, String nombreCompleto, String correoElectronico, String telefono,
                     String codigoEmpleado, LocalDate fechaContratacion, double salarioBasico) {
         super(documentoIdentidad, nombreCompleto, correoElectronico, telefono);
