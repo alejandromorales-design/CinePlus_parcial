@@ -11,6 +11,15 @@ public class Cliente extends Persona {
     private double porcentajeDescuento; // valor entre 0.0 y 1.0 (0% a 100%)
     private ArrayList<Venta> compras;
 
+    /**
+     *
+     * @param documentoIdentidad
+     * @param nombreCompleto
+     * @param correoElectronico
+     * @param telefono
+     * @param codigoAfiliacion
+     * @param porcentajeDescuento
+     */
     public Cliente(String documentoIdentidad, String nombreCompleto, String correoElectronico, String telefono,
                    String codigoAfiliacion, double porcentajeDescuento) {
         super(documentoIdentidad, nombreCompleto, correoElectronico, telefono);
