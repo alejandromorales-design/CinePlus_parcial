@@ -5,6 +5,13 @@ public class Persona {
     protected String correoElectronico;
     protected String telefono;
 
+    /**
+     *
+     * @param documentoIdentidad
+     * @param nombreCompleto
+     * @param correoElectronico
+     * @param telefono
+     */
     public Persona(String documentoIdentidad, String nombreCompleto, String correoElectronico, String telefono) {
         this.documentoIdentidad = documentoIdentidad;
         this.nombreCompleto = nombreCompleto;
